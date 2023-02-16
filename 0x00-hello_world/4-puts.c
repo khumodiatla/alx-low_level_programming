@@ -1,10 +1,9 @@
 #include<stdio.h>
 
 /**
- * main - prints "with proper grammar, but the outcome is a piece of art,, followed by a new line"
- * Return: 0 
- * /
- 
+ * main - prints ""Programming is like building a multilingual puzzle"
+ * Return: 0 always 
+ */ 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
