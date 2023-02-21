@@ -4,7 +4,6 @@
  * @n: nuumber to evaluate
  * Return: last digit of n
  */
-
 int print_last_digit(int n)
 {	
 	if (n  < 1)
