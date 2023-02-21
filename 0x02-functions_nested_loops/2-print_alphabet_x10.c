@@ -3,13 +3,15 @@
  * print_alphabet_10 - prints all alphabet in lower case
  */
 
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
-	char C = 'a';
+	char C;
 	int i = 1;
 
-	while ( i <= 10)
+	while (i <= 10)
 	{
+		C = 'a';
+
 		while (C <= 'z')
 		{
 			_putchar(C);
