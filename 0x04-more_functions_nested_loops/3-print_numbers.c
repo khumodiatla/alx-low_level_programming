@@ -10,6 +10,7 @@ void print_numbers(void)
 
 	for(i = 0; i < 10; i++)
 	{
-		printf("%d", i);
+		_putchar(i);
 	}
+	_putchar('\n');
 }
