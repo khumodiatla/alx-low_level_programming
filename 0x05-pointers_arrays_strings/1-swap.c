@@ -1,5 +1,6 @@
 #include "main.h"
-/**swap - swab values of a and b
+/**
+ * swap_int - swab values of a and b
  * @a: value to swap
  * @b: value to swap
  */
