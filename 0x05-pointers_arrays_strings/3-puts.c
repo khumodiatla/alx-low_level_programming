@@ -6,7 +6,6 @@
 
 void _puts(char *str)
 {
-	printf("%s", *str);
 	int i;
 
 	for(i = 0; i < strlen(str); i++)
