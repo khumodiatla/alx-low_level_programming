@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * puts2 - print every char of s
- * @s: s to print chars of
+ * puts2 - prints every char of str
+ * @str: string to print every char of
  * Return: nothing
  */
 
@@ -11,8 +11,8 @@ void puts2(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		putchar(str[i]);
-		i++;
+		if (i % 2 == 0)
+			putchar(str[i]);
 	}
 	putchar('\n');
 }
