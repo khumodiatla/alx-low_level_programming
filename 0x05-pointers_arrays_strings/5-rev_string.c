@@ -10,6 +10,7 @@ void rev_string(char *s)
 	char *rev_s;
 	int i, j;
 
+	rev_s = NULL;
 	j = 0;
 	for (i = (strlen(s) - 1); i >= 0; i--)
 	{
