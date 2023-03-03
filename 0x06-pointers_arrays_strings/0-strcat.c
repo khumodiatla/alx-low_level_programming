@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * _strcat - concatenate dest and srcc
- * @dest: strig to concat
- * @src: string to concat
- * Return: concatenated string
+ * _strcat - concat 2 string
+ * @dest:char
+ * @src:char
+ * Return:char
  */
 char *_strcat(char *dest, char *src)
 {
